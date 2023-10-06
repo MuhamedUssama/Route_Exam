@@ -2,19 +2,35 @@ import 'package:exam/ui/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 
 abstract class AppTheme {
-  // static const TextStyle appBarTextStyle = TextStyle(
-  //     fontWeight: FontWeight.bold, fontSize: 22, color: AppColors.white);
+  static const TextStyle primaryTextStyle = TextStyle(
+    color: AppColors.primary,
+    fontSize: 24,
+    fontWeight: FontWeight.bold,
+  );
 
-  // static const TextStyle taskTitleTextStyle = TextStyle(
-  //     fontWeight: FontWeight.bold, fontSize: 22, color: AppColors.primary);
+  static const TextStyle secondaryTextStyle = TextStyle(
+    color: AppColors.primary,
+    fontSize: 20,
+    fontWeight: FontWeight.w400,
+  );
 
-  // static const TextStyle taskDescriptionTextStyle = TextStyle(
-  //     fontWeight: FontWeight.normal,
-  //     fontSize: 14,
-  //     color: AppColors.lightBlackText);
+  static const TextStyle normalTextStyle = TextStyle(
+    color: AppColors.primary,
+    fontSize: 16,
+    fontWeight: FontWeight.w400,
+  );
 
-  // static const TextStyle bottomSheetTextStyle = TextStyle(
-  //     fontWeight: FontWeight.bold, fontSize: 20, color: AppColors.text);
+  static const TextStyle seeTextStyle = TextStyle(
+    color: AppColors.accent1,
+    fontSize: 14,
+    fontWeight: FontWeight.bold,
+  );
+
+  static const TextStyle cardTitleTextStyle = TextStyle(
+    color: AppColors.positive,
+    fontSize: 16,
+    fontWeight: FontWeight.bold,
+  );
 
   static ThemeData lightTheme = ThemeData(
     primaryColor: AppColors.primary,
