@@ -12,6 +12,5 @@ class CalenderScreen extends StatelessWidget {
         children: [Text("Calender Screen", style: AppTheme.primaryTextStyle)],
       ),
     );
-    ;
   }
 }

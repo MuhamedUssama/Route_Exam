@@ -12,6 +12,5 @@ class PersonScreen extends StatelessWidget {
         children: [Text("Person Screen", style: AppTheme.primaryTextStyle)],
       ),
     );
-    ;
   }
 }

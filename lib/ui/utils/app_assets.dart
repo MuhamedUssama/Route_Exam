@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 abstract class AppAssets {
   static const String screenOneImages = "assets/screen_1/images";
   static const String screenTwoImages = "assets/screen_2/images";
