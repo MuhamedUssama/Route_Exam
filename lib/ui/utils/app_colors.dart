@@ -8,6 +8,7 @@ abstract class AppColors {
 
   static const Color accent2 = Color(0xff717bbc);
   static const Color clickedIcon2 = Color(0xff363F72);
+  static const Color background2 = Color(0xfff8f9fc);
 
   static const Color accent3 = Color(0xff667085);
   static const Color clickedIcon3 = Color(0xff5925DC);

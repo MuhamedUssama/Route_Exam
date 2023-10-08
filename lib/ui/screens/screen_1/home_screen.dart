@@ -33,7 +33,7 @@ class _HomeState extends State<Home> {
                 const Spacer(),
                 badges.Badge(
                   badgeContent: const Text(""),
-                  position: badges.BadgePosition.topEnd(top: -6, end: 0),
+                  position: badges.BadgePosition.topEnd(top: -6, end: 2),
                   child: const Icon(Icons.notifications_none_rounded, size: 32),
                 ),
               ],
