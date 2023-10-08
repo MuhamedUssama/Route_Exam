@@ -1,4 +1,4 @@
-import 'package:exam/ui/screens/screen_2/pages/Home/Workout%20Types/all_type.dart';
+import 'package:exam/ui/screens/screen_2/pages/Home/all_type.dart';
 import 'package:exam/ui/screens/screen_2/pages/Home/custom_health.dart';
 import 'package:exam/ui/utils/app_colors.dart';
 import 'package:flutter/material.dart';
