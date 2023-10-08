@@ -1,3 +1,4 @@
+import 'package:exam/ui/screens/presentation_screen/presntation_screen.dart';
 import 'package:exam/ui/screens/screen_1/main1.dart';
 import 'package:exam/ui/provider/page_provider.dart';
 import 'package:exam/ui/screens/screen_2/main2.dart';
@@ -20,11 +21,12 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         routes: {
+          PresntationScreen.routeName: (_) => const PresntationScreen(),
           HomeScreenOne.routeName: (_) => HomeScreenOne(),
           HomeScreenSecond.routeName: (_) => HomeScreenSecond(),
           HomeScreenThird.routeName: (_) => HomeScreenThird(),
         },
-        initialRoute: HomeScreenOne.routeName,
+        initialRoute: PresntationScreen.routeName,
       ),
     );
   }
