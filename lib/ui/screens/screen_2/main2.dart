@@ -12,10 +12,10 @@ class HomeScreenSecond extends StatelessWidget {
   HomeScreenSecond({Key? key}) : super(key: key);
 
   final List<Widget> pageWidgetsForSecondScreen = [
-    HomeScreen(),
-    ArrowScreen(),
-    AnalysisScreen(),
-    PersonScreen()
+    const HomeScreen(),
+    const ArrowScreen(),
+    const AnalysisScreen(),
+    const PersonScreen()
   ];
 
   @override
