@@ -1,3 +1,4 @@
+import 'package:exam/ui/utils/app_theme.dart';
 import 'package:flutter/material.dart';
 
 class Chat extends StatelessWidget {
@@ -5,6 +6,13 @@ class Chat extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return const Scaffold(
+      body: Center(
+        child: Text(
+          "Chat Screen",
+          style: AppTheme.primaryTextStyle,
+        ),
+      ),
+    );
   }
 }

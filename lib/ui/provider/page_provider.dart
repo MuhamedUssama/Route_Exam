@@ -9,4 +9,13 @@ class PageProvider extends ChangeNotifier {
     _selectedIndex = index;
     notifyListeners();
   }
+
+  List<int> _selectedIndices = [0, 1, 2, 3];
+
+  List<int> get selectedIndices => _selectedIndices;
+
+  void setSelectedIndex(int index, int chipIndex) {
+    _selectedIndices[chipIndex] = index;
+    notifyListeners();
+  }
 }

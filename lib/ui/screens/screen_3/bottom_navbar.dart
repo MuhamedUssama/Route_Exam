@@ -11,6 +11,7 @@ class BottomNavigationBar3 extends StatelessWidget {
     final selectedIcon = Provider.of<PageProvider>(context);
     return BottomNavigationBar(
       selectedItemColor: AppColors.clickedIcon3,
+      unselectedItemColor: AppColors.accent3,
       currentIndex: selectedIcon.selectedIndex,
       onTap: (value) => selectedIcon.setPage(value),
       items: const [
@@ -28,7 +29,7 @@ class BottomNavigationBar3 extends StatelessWidget {
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            Icons.chat_bubble,
+            Icons.chat_bubble_outline,
           ),
           label: "Chat",
         ),

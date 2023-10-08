@@ -11,8 +11,8 @@ class HomeScreenThird extends StatelessWidget {
   HomeScreenThird({Key? key}) : super(key: key);
 
   final List<Widget> pageWidgetsForSecondScreen = [
-    const Insights(),
     const Today(),
+    const Insights(),
     const Chat(),
   ];
 

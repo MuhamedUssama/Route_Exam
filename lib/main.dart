@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           HomeScreenSecond.routeName: (_) => HomeScreenSecond(),
           HomeScreenThird.routeName: (_) => HomeScreenThird(),
         },
-        initialRoute: HomeScreenThird.routeName,
+        initialRoute: HomeScreenOne.routeName,
       ),
     );
   }
